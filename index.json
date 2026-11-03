@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:20:41Z",
+  "generated_at": "2026-11-03T15:37:12Z",
   "source_repo": "FabianZettl/inniclassic",
   "mirror_repo": "y1-community/inniclassic-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,48 @@
       "layout": "beside_app"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "v1.4.5",
+      "title": "Portable Flashing Package: InniClassic 1.4.5",
+      "source_title": "InniClassic 1.4.5",
+      "source_url": "https://github.com/FabianZettl/inniclassic/releases/tag/v1.4.5",
+      "published_at": "2026-09-29T12:12:13Z",
+      "prerelease": false,
+      "source_notes": "### Fixed\n- **Theme could silently revert to the default after connecting the device as USB Mass Storage** \u2014 the selected theme was persisted only as a numeric index into the SD card's theme folder listing, and that listing's order isn't guaranteed stable across a mount/unmount cycle (common FAT32 behavior). The saved index could end up pointing at a completely different theme once the card was reconnected. The theme's name is now saved alongside the index and resolved by name on startup \u2014 independent of scan order \u2014 with the old index kept only as a fallback for upgrades.\n- **`.scrobbler.log` declared its timestamps as `#TZ/UNKNOWN`** even though they're genuinely UTC (`System.currentTimeMillis()` is always UTC epoch time, regardless of the device's local timezone setting). Now correctly declared as `#TZ/UTC`, so any tool that imports the log trusts the timestamps instead of asking or guessing. Only affects newly created log files \u2014 an existing `.scrobbler.log`'s header isn't rewritten.\n- **On-screen keyboard was missing common punctuation**, making some Wi-Fi passwords (and anything else typed through it \u2014 podcast search, Last.fm login, etc.) impossible to enter. Added `; : , / \\ ( ) [ ] { } < > ' ~` `` ` `` and `|`.\n\n### Install\n- **`rom.zip`** \u2014 flash via the [Innioasis Updater](https://www.innioasis.com/pages/download), no ADB required. Must keep the filename exactly `rom.zip`.\n- **`InniClassic-1.4.5.apk`** \u2014 install over an existing JJ Launcher / InniClassic install via `adb install InniClassic-1.4.5.apk`.\n\nFull changelog: https://github.com/FabianZettl/inniclassic/blob/master/CHANGELOG.md\n",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 699811532,
+          "sha256": "005ae1df62b95415d2c4d6e1817278ec44acf69c7fd7f7bcea350fc6235bb051",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 851122251,
+          "sha256": "5a15f8509e7c3b3911cb688d1e0c2ef77e3896639d1581c7c9f07a199f5c7b04",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 651026939,
+          "sha256": "1c41e8c57a371da508e127f4184928f2302467232ea3808e9077250e166bdb88",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "InniClassic-1.4.5.apk",
+        "rom.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",

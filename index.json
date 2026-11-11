@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T15:15:42Z",
+  "generated_at": "2026-11-11T22:54:21Z",
   "source_repo": "FabianZettl/inniclassic",
+  "source_fallback_repo": "",
   "mirror_repo": "y1-community/inniclassic-mirror",
+  "mirror_fallback_repo": "ryan-specter/inniclassic-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/inniclassic-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: InniClassic 1.4.5",
       "source_title": "InniClassic 1.4.5",
       "source_url": "https://github.com/FabianZettl/inniclassic/releases/tag/v1.4.5",
+      "source_fallback_url": "",
       "published_at": "2026-09-29T12:12:13Z",
       "prerelease": false,
       "source_notes": "### Fixed\n- **Theme could silently revert to the default after connecting the device as USB Mass Storage** \u2014 the selected theme was persisted only as a numeric index into the SD card's theme folder listing, and that listing's order isn't guaranteed stable across a mount/unmount cycle (common FAT32 behavior). The saved index could end up pointing at a completely different theme once the card was reconnected. The theme's name is now saved alongside the index and resolved by name on startup \u2014 independent of scan order \u2014 with the old index kept only as a fallback for upgrades.\n- **`.scrobbler.log` declared its timestamps as `#TZ/UNKNOWN`** even though they're genuinely UTC (`System.currentTimeMillis()` is always UTC epoch time, regardless of the device's local timezone setting). Now correctly declared as `#TZ/UTC`, so any tool that imports the log trusts the timestamps instead of asking or guessing. Only affects newly created log files \u2014 an existing `.scrobbler.log`'s header isn't rewritten.\n- **On-screen keyboard was missing common punctuation**, making some Wi-Fi passwords (and anything else typed through it \u2014 podcast search, Last.fm login, etc.) impossible to enter. Added `; : , / \\ ( ) [ ] { } < > ' ~` `` ` `` and `|`.\n\n### Install\n- **`rom.zip`** \u2014 flash via the [Innioasis Updater](https://www.innioasis.com/pages/download), no ADB required. Must keep the filename exactly `rom.zip`.\n- **`InniClassic-1.4.5.apk`** \u2014 install over an existing JJ Launcher / InniClassic install via `adb install InniClassic-1.4.5.apk`.\n\nFull changelog: https://github.com/FabianZettl/inniclassic/blob/master/CHANGELOG.md\n",
@@ -72,8 +84,20 @@
           "model": "Y1",
           "type": "Type A",
           "size": 698888059,
-          "sha256": "e23578afebb05ed15618acfc557ab26be1233ae4a3308948281d82172d7b034c",
-          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-windows.zip"
+          "sha256": "1efcea4539dd93528e690b01840fab36a5d683e4682b1d6a5a33a8a9c57a4ace",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-windows.zip"
+        },
+        {
+          "name": "rom-windows-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 537737584,
+          "sha256": "21c54362cee168e33c4b452b174e01a151f858e9e6dfa4e47240314ba43e47e0",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-windows-legacy.zip"
         },
         {
           "name": "rom-linux.zip",
@@ -82,8 +106,9 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822759575,
-          "sha256": "60bf9a2846e812f4a9e584c0de06d1772b09df50ec3c57211c2f7e90810c0456",
-          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip"
+          "sha256": "1f951b0bb72b0fafe20861e7698d126bb66c6f8dcc2be2f5ed4f7dddefb9b619",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip"
         },
         {
           "name": "rom-linux-arm64.zip",
@@ -92,8 +117,20 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647664517,
-          "sha256": "535809b627c325dca0f1f888ba8972cddf2302f6a8aaf0503d8d21f7c7521488",
-          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip"
+          "sha256": "176ebafed45eb6996f75187c81bd66847c4618262c724a7d86e26fff003a3805",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip"
+        },
+        {
+          "name": "rom-linux-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 536151869,
+          "sha256": "2cef77596da3c4fa11cea3e1fe7ac025d00ffccd0e52b71faeb599dce72c1cc6",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-linux-legacy.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -102,8 +139,9 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582610395,
-          "sha256": "a719314545f97c0c7f5cfeae8fcf0a429e82bb3b9d89fb1a1e088ed1fa0134e6",
-          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip"
+          "sha256": "281ba2b981f237f7b4ad0139873e82ae15157e9191fc95b27111277d851fc6d8",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip"
         }
       ],
       "original_assets": [

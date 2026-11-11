@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:30:45Z",
+  "generated_at": "2026-11-11T11:25:00Z",
   "source_repo": "FabianZettl/inniclassic",
   "mirror_repo": "y1-community/inniclassic-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -64,7 +64,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822759575,
-          "sha256": "9ea43e8ad9be9dd788a810711d3543b63a27211376a8d93348402a1c7a15aad0",
+          "sha256": "dcb86175e65f0e10f1631aed4195d14d145b02f9c49820d8cdebd67d3bfaebe4",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip"
         },
         {
@@ -74,7 +74,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647664517,
-          "sha256": "e65ac27576aac6f1d9171fb16d8403aff71483f532dd950676d887d9b3d9f8e6",
+          "sha256": "09f708b67d2149cef8c9ade867236ede8da6dec87cafbf92f00248a3f41638d9",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip"
         },
         {
@@ -84,7 +84,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582610395,
-          "sha256": "e033ddfd4c0d559107322488c565f0b104dbae1e0f27f70a02fdfe43cad912d7",
+          "sha256": "a46c7a3003f60f6008ddf89fe7508b1e0c0e55c3ee876e12e318ba46a45e9214",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip"
         },
         {
@@ -93,8 +93,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668639221,
-          "sha256": "f310418f28020b1840e9a30453343a2741b58c0446b4a2f09d2484edfaba017d",
+          "size": 698888059,
+          "sha256": "981fb68e11b51cd05a8bb4c0cde3773c076949f69439ac95da33a734ecb0c859",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-windows.zip"
         }
       ],
@@ -120,7 +120,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822750708,
-          "sha256": "d9e50406833e64bf0c53400fbff0586a54bc0e9ef577b97b5453f512822b3bce",
+          "sha256": "c8458b5258a9717eac7fc5a5dba67b6455156edd3ecb68884e45741c236af255",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-linux.zip"
         },
         {
@@ -130,7 +130,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647655650,
-          "sha256": "b3e0234f3dc8aa7713999acb34de261aff7fc8077567834dbbdc1db73e32a981",
+          "sha256": "08e19cf8c8bc2420ba04f49e62f3653a6ddc8f1c5e2eb7a3588a49e1a6ef4e05",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-linux-arm64.zip"
         },
         {
@@ -140,7 +140,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582601527,
-          "sha256": "12b73ed1102e2bdafd7f8229b75ee9be5715442264eeb509ea62e7729e37c33f",
+          "sha256": "e857b7ece167432c1bd91f8c2afc20040ed030874c8d9d2bfbda9dc76342d7fa",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-macos.zip"
         },
         {
@@ -149,8 +149,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668630354,
-          "sha256": "ed60946ac6001d0493703af8776b9891307c6704269657aa54ff926651fc1d3e",
+          "size": 698879192,
+          "sha256": "6ee1a9bc3317c2f0dc8ce364e1b02c9d86487e57cd878d4d5eb9a4ad0fe8cf3c",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-windows.zip"
         }
       ],
@@ -176,7 +176,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822756841,
-          "sha256": "643064995264fc8a4e52545e6828f95a005241845bce7e78bc96f40564046058",
+          "sha256": "deff299052c75cdbc7c533dc5a0ebcce0f2358fd5aed162b23e90de2005e62c7",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-linux.zip"
         },
         {
@@ -186,7 +186,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647661783,
-          "sha256": "6b8845f5d1b3e755750eba99704f307be3570818956bcb0d730fe38f06905588",
+          "sha256": "343e76d59ca86ac2a09d1f7ed9b1ceda439f072050e8f7aef335c9237adc1c84",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-linux-arm64.zip"
         },
         {
@@ -196,7 +196,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582607661,
-          "sha256": "6d2265cd79e2cc475aecbf421891f3bea8460ae2d648414352131f09c618839a",
+          "sha256": "2d9229654e625603f251228c98fea16a8c7251e99edcda77ed0d731a77fa135f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-macos.zip"
         },
         {
@@ -205,8 +205,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668636487,
-          "sha256": "e63b953d6cb6b174eda33af09596f44d840bc19666bcd302a2e47bfea7dc13a5",
+          "size": 698885325,
+          "sha256": "4204875cb7294ddf61a22b6b79eea09d61a94b961e031f505898de2362830f50",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-windows.zip"
         }
       ],
@@ -232,7 +232,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822895505,
-          "sha256": "37f993577133bf0236186c26fc24ceb51f817f5371faedaead078d9e2619b3d9",
+          "sha256": "f95d42176610dc697743e3c35cb1b74c89c9922dd0f71e81dd51ca421ea7648c",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-linux.zip"
         },
         {
@@ -242,7 +242,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647800447,
-          "sha256": "9d4c7d5fe7d0b3088a241467032911267fd957e414d96a55d4ffa36b9a3b79e3",
+          "sha256": "161cb54cd6581b81e6580fe420be28bf6df2672471997109013352c5c10e9993",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-linux-arm64.zip"
         },
         {
@@ -252,7 +252,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582746325,
-          "sha256": "53ca356b8ab4a731bc5238345ef27c15421b4a6bddd16dff927b536e52f877ec",
+          "sha256": "a0ab6d580afa56d722518e9f3d552b8c1d36a5f0bff791fed722f9f4ab4c9f1a",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-macos.zip"
         },
         {
@@ -261,8 +261,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668775151,
-          "sha256": "5dd281f83a49439fd744485615128062c7c50e28f5e8cdfd6c8d9cf40b4f2248",
+          "size": 699023989,
+          "sha256": "e5362dc5dc17dee8dbbcbd29dbd9abb3df128c34f1402bd05f0e8bd94ed6c3ad",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-windows.zip"
         }
       ],
@@ -288,7 +288,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822895031,
-          "sha256": "fbbaff44d1bcc9f0d0886773e18088941120156c2e065be1b747919b8ffb6e73",
+          "sha256": "8d3be5ef52bf59ac8601f891c26b019ca043266af297fadc3918b73309e8165a",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-linux.zip"
         },
         {
@@ -298,7 +298,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647799973,
-          "sha256": "58763e3ab25fcac4ec85782ccdef578456311a8e92b4ad26f4fb4d968c605c82",
+          "sha256": "bbe10e1ad81de10219b850dfd7fcc09ba9963fbb4c2d2d6a03021317806997b7",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-linux-arm64.zip"
         },
         {
@@ -308,7 +308,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582745851,
-          "sha256": "15276731a350b8d079696b24e8957b43e50a2afb20b4804431f501c98b5d9136",
+          "sha256": "70245430f956ba0bec6f73174e56e58d3454a75da2da19419bba7cd8eb88ee1f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-macos.zip"
         },
         {
@@ -317,8 +317,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668774677,
-          "sha256": "1aadc1177c2b4c31144b2bc14e1cdbfc9f7405d739a1b88d109805ccc6f34987",
+          "size": 699023515,
+          "sha256": "fe2f6df39818e144e80a41dae59a43ee79ecf89b0f39190d84417efa9632c162",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-windows.zip"
         }
       ],
@@ -344,7 +344,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822989418,
-          "sha256": "8204748714a26e88b0088cb071b36b8bed70dfca13f09f8e22edf038d8a7511b",
+          "sha256": "8dac4b8a97812bd2e5faf44990b3a4b309f0fd900a39bb7a9a813645f3ac332f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-linux.zip"
         },
         {
@@ -354,7 +354,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647894360,
-          "sha256": "d07a59365dcbbeddeb11508b3cb290a13efd74abe00b43b0c821d32795bd6e0c",
+          "sha256": "a21ff3c9625fb91d3b5af217edf3ee6a540601703d69043834baeb9cf1f51384",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-linux-arm64.zip"
         },
         {
@@ -364,7 +364,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582840238,
-          "sha256": "31b34e441f6ac132a026f77ab8af578adad89caa6ef8de7d4af76cf7c1b3aab9",
+          "sha256": "ce3d75b10b4f4c485bf34b32733c88c0067566a0ae018d8012546fec79122d4c",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-macos.zip"
         },
         {
@@ -373,8 +373,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668869064,
-          "sha256": "ab6e25d016a151dcd4496528f7fc22ac81aa31ffeb3db3c99eceb78976b89d2f",
+          "size": 699117902,
+          "sha256": "7f6e689e28d004085b808a932128bee22f889f1fe2e7b74c7b2b0934e52fc858",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-windows.zip"
         }
       ],
@@ -400,7 +400,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822989353,
-          "sha256": "83dfaeedb6dff7f04bc1480e4f727bc91ed190458cf7e7a614085be3f73f9be4",
+          "sha256": "d6e8ffc5c52e9d5a2900161944536946b04200c003896b380344f31e17e90c84",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-linux.zip"
         },
         {
@@ -410,7 +410,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647894295,
-          "sha256": "b98072b1dd02c1b1998d40534d0984e74cd435164f943644040947da9f8100fc",
+          "sha256": "b262c0ca9113954a6c3be7b8f6045f3cd333a2cec17bad483459364f49d5e5fa",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-linux-arm64.zip"
         },
         {
@@ -420,7 +420,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582840173,
-          "sha256": "c50032d9331b9430aa279f10a16c21b33c9a5b1157f5cd0b6f01f916bebdd091",
+          "sha256": "256508070efa62980df67181845e53eebba382d85c06739632eda502f30bd052",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-macos.zip"
         },
         {
@@ -429,8 +429,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668868999,
-          "sha256": "f232e636b12fda9c9f3300cdd04369de5cf4048c900568b8939b88a98c1db0bd",
+          "size": 699117837,
+          "sha256": "fc7ae9e8cdcd3612328c3eb9486b91ada9956de9fd6e6907b400bcb501eb0eb2",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-windows.zip"
         }
       ],
@@ -456,7 +456,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822994673,
-          "sha256": "1d93afc5933bdb48db6034a6e13715da0cdff724654fd4b5c4557878c4be7ee6",
+          "sha256": "4e2be9353e87d7aca59b362fd7130d4934a54fa51c48a952a461a30ca443ee6f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-linux.zip"
         },
         {
@@ -466,7 +466,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647899615,
-          "sha256": "d9e0c49965123148b0b76363a28c774b244421b5431bce3572dda2e8ab143381",
+          "sha256": "4c7e6aeffb9c1004c99e17b1c71cab4bbb40af9ccfa2202f0b107e75501d6331",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-linux-arm64.zip"
         },
         {
@@ -476,7 +476,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582845493,
-          "sha256": "90e23b0d1510f788cf2e460443b7ff29709988bf48b7d9c8543e4198d76a643d",
+          "sha256": "3e90409f0777d3b163bec687401330f510f5c5f53fd34600c9ced4e873056365",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-macos.zip"
         },
         {
@@ -485,8 +485,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668874319,
-          "sha256": "5ead34b76a3aa8a7036bb2083061d306367f0578bd65a3e8d059ba993a1c3f96",
+          "size": 699123157,
+          "sha256": "9e8456b5305d5c392c8752fd36221775c9e37252c8d9e0cf331808c958867be9",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-windows.zip"
         }
       ],
@@ -512,7 +512,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 822734916,
-          "sha256": "52d77bd8073516921757d3a9365858da01cebfff1b4274ea5fe7c4ff37873ce6",
+          "sha256": "6ebcb79b1efc900e9e9ae591b221e6d921315deb549cfa7c2fa375f1a8c33d67",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-linux.zip"
         },
         {
@@ -522,7 +522,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 647639858,
-          "sha256": "defd5eff58cf74d00b437c07c397595d29e93dcd1be497fb0ce3ccd2c4ccccb0",
+          "sha256": "1e553acc47e85dad4fcb98e3c9a50739b3e0ab7117db87c7d8cd47f5ce56195d",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-linux-arm64.zip"
         },
         {
@@ -532,7 +532,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582585736,
-          "sha256": "43f019f85be980b13a2033f2371c7a239bdcbd50eb65d81744ce92201288093e",
+          "sha256": "bf265e5f09c8983206b46e08a1ccd0c9f8dc994f03dc77370620c8b4a8b539b1",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-macos.zip"
         },
         {
@@ -541,8 +541,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 668614562,
-          "sha256": "da2c9bc83b4341724cff160d1a68201f730f41c5713b48e9c157b2d5cb680747",
+          "size": 698863400,
+          "sha256": "51dde4caae804eed94aee4f12d47bdf52377bfb428d50083f169385506b801bd",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-windows.zip"
         }
       ],
@@ -568,7 +568,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 817003348,
-          "sha256": "5f0ca793191f8cd8f543326ff975422fb759513791ec7062bec25bb03023f459",
+          "sha256": "0b2cc37f65441a62806ff6cad1d1d54448fc05672ed6c14f05e9c1d9e098fa53",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-linux.zip"
         },
         {
@@ -578,7 +578,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 641908290,
-          "sha256": "00294bb2f7cce58e8453c8d783a174aef9fc7ef9337f6aeca0dacd882ee8ce1a",
+          "sha256": "72bc55d23e9c22c10cc759417ee6298de12f848de03609818152b8bfb4ecf1a4",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-linux-arm64.zip"
         },
         {
@@ -588,7 +588,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 576854168,
-          "sha256": "9b5f30ffa249157f43961a2ac70137b2049bc1a001d60a36b97db99765665d0f",
+          "sha256": "eac210740df03410a875a0dfb46b5d65c460774e07ce60316bc688a32f4c20f6",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-macos.zip"
         },
         {
@@ -597,8 +597,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 662882994,
-          "sha256": "1be43a3fe325f86720f000a7d150fef26668c80735d9930e47b9803a94a9d5de",
+          "size": 693131832,
+          "sha256": "4bdcdb820f53389383eb8f8ce32eae2a551a85dee298ded1faa09078b110c266",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-windows.zip"
         }
       ],
@@ -624,7 +624,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 816897842,
-          "sha256": "98f7dab422dfaff4cc4a8339f5934cae91512d25336f8220785943ff9b92fcc8",
+          "sha256": "b3d11a7ec6deaf65d90cf8eb1c58dc6de3e255320cd19853337eca41f9688087",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-linux.zip"
         },
         {
@@ -634,7 +634,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 641802784,
-          "sha256": "8d78874fa2d14944619a63d72810d371be7d90df636747b116c995fa4ab5d418",
+          "sha256": "f7fd9fa4fd80a24c4f3381e2b112452e657c23ef6f3b92cf054cd27375cc0e06",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-linux-arm64.zip"
         },
         {
@@ -644,7 +644,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 576748637,
-          "sha256": "5fd2c7e0b869e033427d97949d42da12b7792721e22ddb62cbed353da9dbfb96",
+          "sha256": "67160e742c858a4cb320389d042e486eec9fce5540d6b000d78abc7b3e321f7a",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-macos.zip"
         },
         {
@@ -653,8 +653,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 662777488,
-          "sha256": "db554ed0b15869d767c2dfc790130c9d8abdb3d04de68c01479bb389ce87c2b9",
+          "size": 693026326,
+          "sha256": "7692a841cb39b3983edd47eec0f4729118d2a93f2fab6d06b6892ef1f718590b",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-windows.zip"
         }
       ],

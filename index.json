@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T02:51:49Z",
+  "generated_at": "2026-11-21T04:27:52Z",
   "source_repo": "FabianZettl/inniclassic",
   "source_fallback_repo": "",
   "mirror_repo": "y1-community/inniclassic-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764360503,
-          "sha256": "e96133b7d09fd54cd9b76caba7dfbe0e887e9064902da69b7c143c0e4d4c8a6e",
+          "size": 764409271,
+          "sha256": "037be68872834908b2cb0458065e9550a7c6b026c1e9b3900ec211d0189df43a",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589266061,
-          "sha256": "1aff45352433d90d28177e902537ed33c39c2ad6d9f82ee5794e0013c84eaecb",
+          "size": 589315992,
+          "sha256": "cd9385c827dfb826ed87d32c801377c2b56bbc39992524f604c9ee4603ce91f4",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572183687,
-          "sha256": "e7cd2da87ae326fc35bf8edcf2bb00969f8187f47ebe6d2a325113cbf7135870",
+          "size": 572137829,
+          "sha256": "47c8e6a818db826f0d0fce3d5a18340d50953999e6e52c295717c8c9a6d135d4",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.5/rom-macos.zip"
         }
@@ -188,8 +188,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764351636,
-          "sha256": "75bb4a3afb52d3a0db6ec2a25a4469b5893016298c884ecf52d35e2452691d3b",
+          "size": 764400404,
+          "sha256": "049638093ec046bb3f90bb2195981358dd1d78f6ccb822fcce933475e4f2beb8",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.4/rom-linux.zip"
         },
@@ -199,8 +199,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589257194,
-          "sha256": "be85a52e1ef2c4cc4995b206b74c9f78f1378edee233b244801b662c8e7164ef",
+          "size": 589307125,
+          "sha256": "2303e64160c739eb8e2471bd3d3010d7f4c861750a39d16785667e67f803a1ea",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.4/rom-linux-arm64.zip"
         },
@@ -221,8 +221,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572174819,
-          "sha256": "fb8f44a16ce1c365d8a98ddcff4fc6018ce26076e85d49bcaff132d3b9649c0d",
+          "size": 572128961,
+          "sha256": "3e86bf857f64a50da5874996a1f4584ff0165a59ae423e046e0e304f7a1a3271",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.4/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.4/rom-macos.zip"
         }
@@ -271,8 +271,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764357769,
-          "sha256": "c080daa270c6a71b6d58bc540f9eb2456cc4518932d44ddf1c1f0522aa9b379e",
+          "size": 764406537,
+          "sha256": "13a0d9fa6c98dd63b01c5a7dabc341d989ad4cb2a36fb2f76e93213dae2d39f5",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.3/rom-linux.zip"
         },
@@ -282,8 +282,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589263327,
-          "sha256": "05b44b4252ba9b2f7cb5288abc9d8f65e84ff8fa609dce1a6262e41ede11b56d",
+          "size": 589313258,
+          "sha256": "df88752637432b3d7cf620ed5602860aaed81fba036070afbabebdf0f1bdc20e",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.3/rom-linux-arm64.zip"
         },
@@ -304,8 +304,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572180953,
-          "sha256": "79a6d184549d9fabc90de09651467810186a0cb776c0ee5039706382ae06722e",
+          "size": 572135095,
+          "sha256": "913af54a4c81a9ca4120c2b2a2c08895c930080fbe8fc310997a92e4de497379",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.3/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.3/rom-macos.zip"
         }
@@ -354,8 +354,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764496433,
-          "sha256": "58f058e73eb2d8898be614779793b8621ae40536eacae485b3661926b5bff353",
+          "size": 764545201,
+          "sha256": "e1cbcc5ee57698ded3567821a1e166270147eb038d22c0ce42111fd92ea38948",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.2/rom-linux.zip"
         },
@@ -365,8 +365,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589401991,
-          "sha256": "a202d99e4ded86f38617253dbf6c88fe42418b6d0f83b40555d058ae1217adea",
+          "size": 589451922,
+          "sha256": "e9f7f902198aafcea466012f682afc503656659304718201724baca3772fb703",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.2/rom-linux-arm64.zip"
         },
@@ -387,8 +387,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572319617,
-          "sha256": "2ac25e39178c60a118cf8d5f72634ecf959802ee2f05422ef8e984a104da2c39",
+          "size": 572273759,
+          "sha256": "df451fd9d44304e9faeab76b7c4f28efcd02223f4f432e4d96418fd3158a5b8f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.2/rom-macos.zip"
         }
@@ -437,8 +437,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764495959,
-          "sha256": "ee3ccae03bce5c2d35b225a24a4634d7912a05fc97478db5bd0efe1382276031",
+          "size": 764544727,
+          "sha256": "ea32f68fb22ac0b972d3a5cff7bc191b451241c5f3fee91d57e804c6739f2636",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.1/rom-linux.zip"
         },
@@ -448,8 +448,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589401517,
-          "sha256": "0c9f2264c18b5c5b35f09f80aacc69024a99f18f7cedc4cdaf161033dd532038",
+          "size": 589451448,
+          "sha256": "64e66b1cdc68b8e838dea6da6583de64af7fd28a3450edf3a8638d6169063f6e",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.1/rom-linux-arm64.zip"
         },
@@ -470,8 +470,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572319143,
-          "sha256": "c0fe5087926d8174bdceb5e815bf7a4f2c9ddb0fabb013a1d729dcc8df316506",
+          "size": 572273285,
+          "sha256": "89cb7353345cc7f57f5ff914355ee317855dc63c87cdd153c967db024aa5cf1c",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.4.1/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.4.1/rom-macos.zip"
         }
@@ -520,8 +520,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764590346,
-          "sha256": "7315a25958e4d038b7258aa1c316b42795e616ee29b4c438a053bc9e0d159f0e",
+          "size": 764639114,
+          "sha256": "846d9471d83c70ac9701151d443d919d2c49b8910325cf0eb32d765628a1cbff",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.2/rom-linux.zip"
         },
@@ -531,8 +531,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589495904,
-          "sha256": "d863957c6c74297bfb933faeaaf5bebeddb376cbd038104ef4de9f6dcf2cb2f3",
+          "size": 589545835,
+          "sha256": "666e814aac023e26ce274631f9f7099490865fdb7f3be6eba7f7ff38b83476a4",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.2/rom-linux-arm64.zip"
         },
@@ -553,8 +553,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572413530,
-          "sha256": "e2a2f02c261f1b17cfa69fcb0b8f2f507559765d405eb17c30866c0b73d86b72",
+          "size": 572367672,
+          "sha256": "1bad4adc7c136132097d23c69bb878ab28fb377012b04d016454557593275872",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.2/rom-macos.zip"
         }
@@ -603,8 +603,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764590281,
-          "sha256": "73b2b631d59f9631e740094a8cc63e8b2568fbe122c5b804af30bf69007ca117",
+          "size": 764639049,
+          "sha256": "fd19b5ea9c646d56a7a0b44c38b01eca511b4423f4644470f951e85903796fa9",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.1/rom-linux.zip"
         },
@@ -614,8 +614,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589495839,
-          "sha256": "8f37b8f1c81bf770cca8d20ea09ea390a11e04164bb68021cc954e8cdaebdb4f",
+          "size": 589545770,
+          "sha256": "9f4f37549d921af4c7472e6d7158060e982c0b64fca307e5574f7cbe74bb5a1b",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.1/rom-linux-arm64.zip"
         },
@@ -636,8 +636,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572413465,
-          "sha256": "bdb369ff9f5353fd3d191c72af6101e10f631d0d81e24478c08ef26936c70d9f",
+          "size": 572367607,
+          "sha256": "5a8077593503abf37cb856d59bda64cfe65399ac79a8b5d0241a257e66717bfe",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.1/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.1/rom-macos.zip"
         }
@@ -686,8 +686,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764595601,
-          "sha256": "f5ec9d55a10435c8e66563fc996bbc55c4a0d2bcb0540d75fd616f56b6695ad4",
+          "size": 764644369,
+          "sha256": "9a80690148fd5505a1dc3ee421787b403151727008f02d80b49e8525307e0b10",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.0/rom-linux.zip"
         },
@@ -697,8 +697,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589501159,
-          "sha256": "7dd8746de9a1f5c7925cc1b9099721f858d9e7348813d9531ff48e2bdfe0f138",
+          "size": 589551090,
+          "sha256": "a767935be1a3e52b9347fad1e2af3b71dfa140da65563f5a69be3b476b4dc1db",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.0/rom-linux-arm64.zip"
         },
@@ -719,8 +719,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572418785,
-          "sha256": "63014bde4786ae28c3186d076508705ceee4cfaad5223fbf57b9293e6b665263",
+          "size": 572372927,
+          "sha256": "2b715c61426e76d964667668381ba6a2572183d9812135b0342b5ca3b29db62e",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.3.0/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.3.0/rom-macos.zip"
         }
@@ -769,8 +769,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 764335844,
-          "sha256": "c76ac91874ca9721de0ae95b3e0a2c0526cd35f4dc723e7cfae8a7092c4f27ef",
+          "size": 764384612,
+          "sha256": "39275855ccf559e1318d059c7ba35bfdc7047ba7485a5885480fd78fc9e9c5e6",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.2.0/rom-linux.zip"
         },
@@ -780,8 +780,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 589241402,
-          "sha256": "617980b03b542cb1ebbd15025d16ec9402b6ec5c223a660a1231833093d80142",
+          "size": 589291333,
+          "sha256": "fa68e96d284902755a4bb4d4bb5158601e54b4c0983e63aca12277a2210ab62e",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.2.0/rom-linux-arm64.zip"
         },
@@ -802,8 +802,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 572159028,
-          "sha256": "e0e6e58ef58483adedde68c68382d640b84e770243789a9d6917606fe3c0cb1c",
+          "size": 572113170,
+          "sha256": "4bc2fff54a870fa7e7343cf4d2df7c38b294a617dacbf8fe246d81fc977a794f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.2.0/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.2.0/rom-macos.zip"
         }
@@ -852,8 +852,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 758604276,
-          "sha256": "b5d64aa2701ab28943cffd10c91a3eaf4be1d915c8a08647de68bad047f9611d",
+          "size": 758653044,
+          "sha256": "2e82ee268f460bf624403190d35e5327c3f3969a4d346a10937488d2c12b910f",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.2/rom-linux.zip"
         },
@@ -863,8 +863,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 583509834,
-          "sha256": "017cbac700a61f85c0871c3ccc419a677157a4d07a216d92ee97b68cc00eddc4",
+          "size": 583559765,
+          "sha256": "27b05a2dc28e42ec4527050ae8d6e05d22f6f9602e2c0dfa019713865687d61c",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.2/rom-linux-arm64.zip"
         },
@@ -885,8 +885,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 566427460,
-          "sha256": "99efe269e30cf47e31bab24301558d105b2a50ed54a44bc06df55f998ff45587",
+          "size": 566381602,
+          "sha256": "790dc2c9c91054c8ccf8a50e4d6375987229366f508725853b9c8a34fda70e33",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.2/rom-macos.zip"
         }
@@ -935,8 +935,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 758498770,
-          "sha256": "37fbfac6eb718a76a60ac15239a04100f160398098ea12f15feb082971afb86f",
+          "size": 758547538,
+          "sha256": "8f4e9621baf55a308389f62767dd5993a0095e5e88fb12cfcfb1342e068dad35",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.1/rom-linux.zip"
         },
@@ -946,8 +946,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 583404328,
-          "sha256": "3a0c56021fefd67fcaffa316c760904220b3216434e0e36bcb4dcbd2ec3c1895",
+          "size": 583454259,
+          "sha256": "f8a8190a82188507a8c9698eec3d870a983d5103200965ced52e5555074ef3d6",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.1/rom-linux-arm64.zip"
         },
@@ -968,8 +968,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 566321929,
-          "sha256": "dd1784b99ece475dcc6d007f27aed66be2a0460166a6e769b9213f0c1e54a2e0",
+          "size": 566276071,
+          "sha256": "db353c6a53d4db9078b86c69ff188d824162daf0be81fc58e888db836105ee9e",
           "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.1.1/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.1.1/rom-macos.zip"
         }

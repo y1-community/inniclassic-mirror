@@ -2,6 +2,52 @@
 
 All notable changes to InniClassic (formerly "JJ Launcher Classic Version") are documented here. This project is based on JJ Launcher `0.11`; this changelog covers only what changed on top of that base.
 
+## [1.5.1] - 2026-11-23
+
+### Fixed
+- **Theme fell back to Dark after a restart or shutdown (#19):** if the SD card was not mounted yet when the app started, the saved theme was not found. The app now keeps retrying for about 30 seconds and switches back to the saved theme as soon as the theme folder is there.
+
+## [1.5.0] - 2026-11-23
+
+### Added
+- **Letter Jump** and **Letter Jump Sensitivity** (Settings): turn the letter jump on a fast wheel turn off, or choose High/Normal/Low.
+- **Multiple artists in one tag:** a track artist like "A; B" is listed under A and under B in Artists.
+
+## [1.4.9] - 2026-11-23
+
+### Added
+- **Power Off in the Now Playing hold-menu** (long-press Play/Pause), with the same confirmation as in Settings (#20).
+
+## [1.4.8] - 2026-11-23
+
+### Added
+- **Mono Audio** (Settings): mixes left and right into both channels, for listening with one earbud. Applies to tracks played through the ExoPlayer path.
+
+## [1.4.7] - 2026-11-23
+
+### Changed
+- **Chevron arrows** in the main menu, Music/Videos lists and category lists are now the thin drawn chevron (as in Settings).
+- **Bluetooth list** shows the connected device with the drawn tick.
+
+### Added
+- **Battery Percentage** setting (Settings): shows the level inside the battery icon, with the charging bolt next to the digits.
+
+## [1.4.6] - 2026-11-23
+
+UI pass ported from the Classy fork.
+
+### Changed
+- **Lists:** settings rows use a thin drawn chevron instead of the text "〉"; Theme, Language, EQ and Wi-Fi lists show the current choice as a drawn tick in a fixed column instead of a green "✔" prefix.
+- **Status bar:** iPod-style solid play/pause icons.
+- **Now Playing:** shuffle/repeat icons redrawn (Tabler style).
+- **About:** now a scrollable two-column list (Songs, Videos, Albums, Artists, capacity, available, version, model).
+
+### Added
+- **Low-battery warnings:** a banner at 10 % and a "Please charge" screen at 2 %; any key closes them.
+
+### Fixed
+- **Settings/theme could be lost after Settings → Power Off** — the filesystem is now synced before shutdown (#9, #19).
+
 ## [1.4.5] - 2026-09-30
 
 ### Fixed

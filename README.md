@@ -59,8 +59,9 @@ This is **not** a GitHub "Fork" in the technical sense (it's a separate reposito
 - **Audiobooks** — bookmarked, resumable playback
 - **Wireless PC Upload** — a small web server for copying music onto the device over Wi-Fi, no cable needed
 
-### Installable two ways
-- **Flashable ROM** (`rom.zip`) via the [Innioasis Updater](https://www.innioasis.com/pages/download) — no ADB required
+### Installable three ways
+- **[Install from Innioasis Updater CE](https://innioasis.app/inniclassic-y1-software.html)** by selecting Y1 as your Model and Inniclassic as your Software, then click Install and follow the on screen instructions.
+- **Flashable ROM** (`rom.zip`) for Manual flashing via SP Flash Tool / MTK Client (Included with [Updater CE](https://innioasis.app))
 - Standalone **APK** for updating an existing install
 
 ### Under the hood
@@ -79,11 +80,8 @@ There are two ways to get InniClassic onto your Innioasis Y1. Method 1 is recomm
 
 ### Method 1: Innioasis Updater (recommended)
 
-The ROM package installs the latest **Y1 Firmware 3.1.2** with **InniClassic** already baked in as the system launcher — no ADB, no manual uninstall step, nothing else to do afterward.
-
-1. Download `rom.zip` from this repo's [Releases](../../releases) page — the Innioasis Updater expects this exact filename, so keep it as-is after downloading.
-2. Open the [Innioasis Updater](https://www.innioasis.com/pages/download), select that zip as a local firmware file, and follow the on-screen instructions.
-3. Once it finishes and the device reboots, InniClassic is the active launcher — nothing further to install.
+1. Open the [Innioasis Updater](https://www.innioasis.app/guide.html), select Y1 as your model and Inniclassic as your software, then click install.
+2. Once it finishes and the device reboots, InniClassic is the active launcher — nothing further to install.
 
 > [!WARNING]
 > Flashing firmware always carries some risk. Make sure the device stays connected and powered throughout the flash, and don't interrupt it.

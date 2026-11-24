@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T22:55:47Z",
+  "generated_at": "2026-11-24T00:58:46Z",
   "source_repo": "FabianZettl/inniclassic",
   "source_fallback_repo": "",
   "mirror_repo": "y1-community/inniclassic-mirror",
@@ -67,6 +67,89 @@
     }
   ],
   "releases": [
+    {
+      "tag": "v1.5.1",
+      "title": "Portable Flashing Package: InniClassic 1.5.1",
+      "source_title": "InniClassic 1.5.1",
+      "source_url": "https://github.com/FabianZettl/inniclassic/releases/tag/v1.5.1",
+      "source_fallback_url": "",
+      "published_at": "2026-11-23T15:11:54Z",
+      "prerelease": false,
+      "source_notes": "Everything since 1.4.5: the Classy UI pass and a round of fixes.\n\n**UI**\n- Drawn chevrons and ticks in lists and menus (Settings, main menu, Music/Videos, Theme/Language/EQ/Wi-Fi/Bluetooth)\n- iPod-style play/pause icon, redrawn shuffle/repeat icons\n- Two-column About screen\n- Low-battery warnings (10 % banner, 2 % Please charge)\n- Battery Percentage setting (level inside the battery icon)\n\n**New**\n- Power Off in the Now Playing hold-menu (long-press Play/Pause) (#20)\n- Mono Audio setting\n- Letter Jump and Letter Jump Sensitivity settings\n- Track artists like \"A; B\" are listed under each artist\n\n**Fixes**\n- Saved theme is restored when the SD card mounts late after boot (#19)\n- Settings are synced to disk before Settings \u2192 Power Off (#9, #19)\n- Bundled themes are reinstalled when the theme folder is empty\n- Stronger vibration for Weak/Normal (#21)\n\nrom.zip is for the Innioasis Updater (keep the filename); the APK updates an existing install. Details in CHANGELOG.md.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 652801010,
+          "sha256": "e46e893b24bbf7fe63cddcb5d68fc0d675e668a1d200566863b7b1c15a51f868",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-windows-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 537893982,
+          "sha256": "33c24ed523f5a57c638aa50082fa1ca23f56d09fabb45068268cc69e50b116fd",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-windows-legacy.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 764854609,
+          "sha256": "b57960bd89dc4d573a42baa342662d9971e4689b976a4629d7889fd41fd8f03e",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 589761371,
+          "sha256": "cd7c16981cebf7fd7eaeb88906daed6442e16158bc1530d9805d4350615a1884",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-linux-arm64.zip"
+        },
+        {
+          "name": "rom-linux-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 536308265,
+          "sha256": "56771e694eac832056e9b5a742997f1fae72b4b5f43480244cbdd59d7a7c1630",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-linux-legacy.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 572310930,
+          "sha256": "9fd24ee5f58e61b439226794e552dde611b88e0ba1dde3f8b2bc35ba05225836",
+          "url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/rom-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/inniclassic-mirror/releases/download/v1.5.1/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "InniClassic-1.5.1.apk",
+        "rom.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/inniclassic-mirror/releases/download/v1.5.1/stats.txt"
+    },
     {
       "tag": "v1.4.5",
       "title": "Portable Flashing Package: InniClassic 1.4.5",
